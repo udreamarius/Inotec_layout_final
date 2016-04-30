@@ -1,0 +1,178 @@
+ body {
+	background-color: #BABABA;
+	font-size: 14px; 
+	font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	line-height: 0; /* distanta dintre logo si meniu */
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	}
+	
+.body {
+	clear: both; 
+	margin: 0;
+	width: 100%;
+}
+	
+/* heading */
+
+h1 {font-size: 1.571em}	/* 22px */
+
+h1 {
+	font-weight: 400;
+	line-height: 1.1;
+	margin-bottom: .8em;
+	
+}
+
+#logo {
+    padding-left: 20px;
+    font-size: 2em;
+
+}
+
+/* <a ..> </a> */ 
+
+a {
+	outline: 0;
+	}
+
+a img {
+	border: 0px; 
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #04B431;
+	padding: 0 1px;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	background-color: #04B431;
+	color: #fff;
+	text-decoration: none;
+}
+
+
+/*  nav bar */
+   
+.mainHeader nav {
+
+	background: #666;
+	font-size: 1.143em;
+	height: 40px;
+	line-height: 30px;
+	margin: 0 auto 1px auto;
+	text-align: center;
+	border-radius: 5px;
+	-moz-border-radius: 5px; /* folosit pentru mozilla */
+	-webkit-border-radius: 5px; /* pentru a permite afisarea pe toate browserele care folosesc webkit */
+}
+	
+.mainHeader nav ul {
+	list-style: none; 
+	margin: 0 auto;
+	padding-left: 0px;
+}
+
+.mainHeader nav ul li {
+	float: left; 
+	display: inline; 
+	border-left: 1px solid #FFFFFF;
+	border-right: 1px solid #FFFFFF;
+}
+	
+.mainHeader nav a:link, .mainHeader nav a:visited {
+	color: #fff;
+	display: inline-block;
+	height: 30px;
+	padding: 5px 23px;
+	text-decoration: none;
+}
+.mainHeader nav a:hover, .mainHeader nav a:active,
+.mainHeader nav .active a:link, .mainHeader nav .active a:visited {
+	background: #04B431;
+	color: #fff;
+	text-shadow: none !important;
+}
+	
+.mainHeader nav li a {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+
+
+/*  content/mainContent/topContent - ultimul a fost adaugat in caz ca se doresc mai multe articole
+    pot fi numite middleContent, bottomContent */
+.mainContent {
+	overflow: hidden;
+	line-height: 25px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.topcontent {
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	padding: 3% 5%;	
+
+}
+
+.content {
+	width: 68%;
+	float: left;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+}
+
+.post-info {
+	font-style: italic;
+	color: #999;
+	font-size: 85%;
+}
+
+.wrap-content {
+	background-color: #E7E7E7;
+}
+
+
+/* aside heading */
+.sidebar {
+	width: 26%;
+
+	float: left;
+
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	background-color: #E7E7E7;	
+	padding: 2% 3%;
+
+}
+
+
+/* footer */ 
+.mainFooter {
+	width: 100%;
+	float: right;
+	position:absolute;
+	overflow: hidden;
+	background-color: #BABABA;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	color: #000;	
+}
+
+.mainFooter p {
+	width: 91%;
+	margin: 2% auto;
+	text-align: right;
+}
